@@ -23,3 +23,5 @@ epoch.pick_types(ref_meg=False)
 evoked_win = epoch['win'].average()
 evoked_win.plot()
 evoked_win.plot_topomap()
+
+#thanks tom for being helpful unlike Fred 
